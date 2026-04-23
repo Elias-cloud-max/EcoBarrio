@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace EcoBarrio.Application.DTOs;
 
-namespace EcoBarrio.Application.DTOs
+public class EntregaDto
 {
-    internal class EntregaDto
-    {
-    }
+    public int Id { get; set; }
+    public int UsuarioId { get; set; }
+    public string UsuarioNombre { get; set; } = string.Empty;
+    public int MaterialId { get; set; }
+    public string MaterialNombre { get; set; } = string.Empty;
+    public decimal PesoKg { get; set; }
+    public DateTime FechaEntrega { get; set; }
 }

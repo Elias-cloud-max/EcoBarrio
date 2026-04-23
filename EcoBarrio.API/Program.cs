@@ -13,7 +13,14 @@ builder.Services.AddDbContext<EcoBarrioDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<IMaterialRepository, MaterialRepository>();
+builder.Services.AddScoped<IEntregaRepository, EntregaRepository>();
+
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IMaterialService, MaterialService>();
+builder.Services.AddScoped<IEntregaService, EntregaService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

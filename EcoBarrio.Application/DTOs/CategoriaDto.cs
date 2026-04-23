@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace EcoBarrio.Application.DTOs;
 
-namespace EcoBarrio.Application.DTOs
+public class CategoriaDto
 {
-    internal class CategoriaDto
-    {
-    }
+    public int Id { get; set; }
+    public string Nombre { get; set; } = string.Empty;
+    public string Descripcion { get; set; } = string.Empty;
 }

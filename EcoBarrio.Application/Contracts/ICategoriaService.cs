@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using EcoBarrio.Application.DTOs;
 
-namespace EcoBarrio.Application.Contracts
+namespace EcoBarrio.Application.Contracts;
+
+public interface ICategoriaService
 {
-    internal interface ICategoriaService
-    {
-    }
+    Task<List<CategoriaDto>> ObtenerTodos();
+    Task<CategoriaDto?> ObtenerPorId(int id);
+    Task Crear(CrearCategoriaDto dto);
+    Task Actualizar(int id, CrearCategoriaDto dto);
+    Task Eliminar(int id);
 }

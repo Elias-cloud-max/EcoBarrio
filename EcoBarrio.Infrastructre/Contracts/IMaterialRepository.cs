@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using EcoBarrio.Domain.Entities;
 
-namespace EcoBarrio.Infrastructre.Contracts
+namespace EcoBarrio.Infrastructure.Contracts;
+
+public interface IMaterialRepository
 {
-    internal interface IMaterialRepository
-    {
-    }
+    Task<List<Material>> ObtenerTodos();
+    Task<Material?> ObtenerPorId(int id);
+    Task Crear(Material material);
+    Task Actualizar(Material material);
+    Task Eliminar(Material material);
 }

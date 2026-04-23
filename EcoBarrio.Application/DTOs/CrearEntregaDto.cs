@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace EcoBarrio.Application.DTOs;
 
-namespace EcoBarrio.Application.DTOs
+public class CrearEntregaDto
 {
-    internal class CrearEntregaDto
-    {
-    }
+    public int UsuarioId { get; set; }
+    public int MaterialId { get; set; }
+    public decimal PesoKg { get; set; }
 }

@@ -2,5 +2,5 @@
   <Project Path="EcoBarrio.API/EcoBarrio.API.csproj" />
   <Project Path="EcoBarrio.Application/EcoBarrio.Application.csproj" />
   <Project Path="EcoBarrio.Domain/EcoBarrio.Domain.csproj" />
-  <Project Path="EcoBarrio.Infrastructre/EcoBarrio.Infrastructre.csproj" />
+  <Project Path="EcoBarrio.Infrastructre/EcoBarrio.Infrastructure.csproj" />
 </Solution>

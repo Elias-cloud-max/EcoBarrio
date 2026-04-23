@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MappingProfiles\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EcoBarrio.Domain\EcoBarrio.Domain.csproj" />
-    <ProjectReference Include="..\EcoBarrio.Infrastructre\EcoBarrio.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

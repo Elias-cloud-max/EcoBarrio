@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using EcoBarrio.Application.DTOs;
 
-namespace EcoBarrio.Application.Contracts
+namespace EcoBarrio.Application.Contracts;
+
+public interface IEntregaService
 {
-    internal interface IEntregaService
-    {
-    }
+    Task<List<EntregaDto>> ObtenerTodos();
+    Task<EntregaDto?> ObtenerPorId(int id);
+    Task Crear(CrearEntregaDto dto);
+    Task Actualizar(int id, CrearEntregaDto dto);
+    Task Eliminar(int id);
 }

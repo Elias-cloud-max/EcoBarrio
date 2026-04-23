@@ -8,6 +8,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcoBarrio.Application\EcoBarrio.Application.csproj" />
+    <ProjectReference Include="..\EcoBarrio.Domain\EcoBarrio.Domain.csproj" />
+    <ProjectReference Include="..\EcoBarrio.Infrastructre\EcoBarrio.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
