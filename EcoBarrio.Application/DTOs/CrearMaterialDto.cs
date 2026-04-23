@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EcoBarrio.Domain.Entities
+namespace EcoBarrio.Application.DTOs
 {
-    internal class Class1
+    internal class CrearMaterialDto
     {
     }
 }
