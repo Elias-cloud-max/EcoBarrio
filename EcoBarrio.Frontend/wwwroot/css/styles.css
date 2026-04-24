@@ -1,0 +1,33 @@
+﻿body {
+    background: #f4f8f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,100,0,.7),rgba(0,100,0,.7)), url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+.card-box {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+    transition: .2s;
+}
+
+    .card-box:hover {
+        transform: translateY(-5px);
+    }
