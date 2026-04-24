@@ -2,5 +2,6 @@
   <Project Path="EcoBarrio.API/EcoBarrio.API.csproj" />
   <Project Path="EcoBarrio.Application/EcoBarrio.Application.csproj" />
   <Project Path="EcoBarrio.Domain/EcoBarrio.Domain.csproj" />
+  <Project Path="EcoBarrio.Frontend/EcoBarrio.Frontend.csproj" Id="f1dc2f6a-4e0a-40c9-a7d8-cc19ed1901c9" />
   <Project Path="EcoBarrio.Infrastructre/EcoBarrio.Infrastructure.csproj" />
 </Solution>

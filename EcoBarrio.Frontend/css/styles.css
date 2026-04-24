@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #f4f8f5;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(rgba(20, 100, 40, 0.75), rgba(20, 100, 40, 0.75)), url("https://images.unsplash.com/photo-1532996122724-e3c354a0b15b");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+        margin-bottom: 25px;
+    }
+
+.card-dashboard {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease;
+}
+
+    .card-dashboard:hover {
+        transform: translateY(-5px);
+    }
+
+.table-container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.page-title {
+    font-weight: bold;
+    color: #198754;
+}
